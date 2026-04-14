@@ -3,204 +3,324 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="NovaTech - Đối tác kỹ thuật số hàng đầu. Chúng tôi cung cấp giải pháp phần mềm, marketing và thiết kế web đỉnh cao để nâng tầm doanh nghiệp của bạn.">
-    <meta name="keywords" content="digital agency, thiết kế web, web chuẩn SEO, giải pháp phần mềm, chuyển đổi số">
-    <meta name="author" content="NovaTech Solutions">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://novatech.local/">
-    <title>NovaTech | Giải pháp Chuyển đổi số & Website Chuyên nghiệp</title>
+    <title>Dịch Vụ Của Chúng Tôi | TCH</title>
     
-    <!-- Preconnect for performance -->
+    <meta name="description" content="Từ thiết kế website, SEO, quảng cáo số đến sản xuất nội dung, chúng tôi cung cấp các dịch vụ chuyên nghiệp và hiệu quả.">
+    <link rel="canonical" href="https://dichvuwebsitetch.com/dich-vu">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="TCH">
+    <meta property="og:url" content="https://dichvuwebsitetch.com/dich-vu">
+    <meta property="og:title" content="Dịch Vụ Của Chúng Tôi">
+    <meta property="og:description" content="Từ thiết kế website, SEO, quảng cáo số đến sản xuất nội dung, chúng tôi cung cấp các dịch vụ chuyên nghiệp và hiệu quả.">
+    <meta property="og:image" content="/images/default-banner.jpg">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Dịch Vụ Của Chúng Tôi">
+    <meta name="twitter:description" content="Khám phá các dịch vụ từ TCH">
+
+    <!-- Fonts and Icons -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Modern Fonts: Outfit for Heading, Inter for Text -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
     
-    <link rel="stylesheet" href="./styles.css">
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Dịch Vụ Của Chúng Tôi | TCH",
+      "description": "Từ thiết kế website, SEO, quảng cáo số đến sản xuất nội dung, chúng tôi cung cấp các dịch vụ chuyên nghiệp và hiệu quả."
+    }
+    </script>
 </head>
 <body>
-    <!-- Navbar / Header -->
+
+    <!-- Header Navigation -->
     <header class="navbar">
         <div class="container nav-wrapper">
-            <a href="#" class="logo">Nova<span>Tech</span></a>
+            <a href="/" class="logo"><span>I</span>TCH</a>
+            
             <nav class="nav-links">
-                <a href="#services">Dịch vụ</a>
-                <a href="#about">Về chúng tôi</a>
-                <a href="#projects">Dự án</a>
-                <a href="#contact">Liên hệ</a>
+                <a href="/">Trang Chủ</a>
+                <a href="/gioi-thieu">Giới Thiệu</a>
+                
+                <!-- Mega Menu: Dịch Vụ -->
+                <div class="nav-item-dropdown">
+                    <a href="/dich-vu" class="active">Dịch Vụ <i data-lucide="chevron-down" class="icon-sm"></i></a>
+                    <div class="mega-menu">
+                        <div class="mega-menu-grid">
+                            <div class="mega-menu-left">
+                                <h4 class="mega-menu-title">DỊCH VỤ CỦA CHÚNG TÔI</h4>
+                                <div class="mega-menu-list">
+                                    <a href="#" class="mega-menu-item">
+                                        <div class="mega-icon" style="background: rgba(59, 130, 246, 0.2); color: #2563eb;"><i data-lucide="layout-template"></i></div>
+                                        <div class="mega-item-text">
+                                            <h5>Thiết kế Website Chuẩn SEO</h5>
+                                            <p>Giao diện độc quyền & chuẩn SEO</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="mega-menu-item">
+                                        <div class="mega-icon" style="background: rgba(34, 197, 94, 0.2); color: #059669;"><i data-lucide="search"></i></div>
+                                        <div class="mega-item-text">
+                                            <h5>Quảng cáo Google Ads</h5>
+                                            <p>Tiếp cận hàng triệu khách hàng tiềm năng</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="mega-menu-item">
+                                        <div class="mega-icon" style="background: rgba(6, 182, 212, 0.2); color: #0891b2;">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                            </svg>
+                                        </div>
+                                        <div class="mega-item-text">
+                                            <h5>Quảng cáo Facebook Ads</h5>
+                                            <p>Xây dựng thương hiệu và tăng doanh số</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="mega-menu-item">
+                                        <div class="mega-icon" style="background: rgba(168, 85, 247, 0.2); color: #7e22ce;"><i data-lucide="trending-up"></i></div>
+                                        <div class="mega-item-text">
+                                            <h5>Dịch vụ SEO Tổng Thể</h5>
+                                            <p>Đưa website lên top đầu Google bền vững</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="mega-menu-item">
+                                        <div class="mega-icon" style="background: rgba(244, 63, 94, 0.2); color: #e11d48;"><i data-lucide="shield-check"></i></div>
+                                        <div class="mega-item-text">
+                                            <h5>Chăm Sóc & Quản Trị Website</h5>
+                                            <p>Bảo đảm hoạt động ổn định và an toàn</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="mega-menu-item">
+                                        <div class="mega-icon" style="background: rgba(245, 158, 11, 0.2); color: #d97706;"><i data-lucide="video"></i></div>
+                                        <div class="mega-item-text">
+                                            <h5>Sản xuất Video & Hình ảnh</h5>
+                                            <p>Chất liệu truyền thông chuyên nghiệp</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="mega-menu-footer">
+                                    <a href="/dich-vu" class="text-link">Xem tất cả dịch vụ &rarr;</a>
+                                </div>
+                            </div>
+                            <div class="mega-menu-right">
+                                <div>
+                                    <span class="badge badge-light">Báo Giá Nhanh</span>
+                                    <h3>Dự Toán Chi Phí</h3>
+                                    <p>Nhận bảng báo giá chi tiết cho dự án website của bạn chỉ trong vài bước.</p>
+                                </div>
+                                <a href="/tra-gia" class="btn btn-light mt-auto">Tra Giá Ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mega Menu: Tin Tức -->
+                <div class="nav-item-dropdown">
+                    <a href="/tin-tuc">Tin Tức <i data-lucide="chevron-down" class="icon-sm"></i></a>
+                </div>
+                
+                <a href="/tra-gia">Tra Giá</a>
+                <a href="/lien-he">Liên Hệ</a>
             </nav>
-            <a href="#contact" class="btn btn-primary nav-cta">Bắt đầu ngay</a>
+            
+            <div class="nav-actions">
+                <button class="icon-btn" aria-label="Toggle Theme"><i data-lucide="moon"></i></button>
+                <button class="icon-btn" aria-label="Search"><i data-lucide="search"></i></button>
+            </div>
         </div>
     </header>
 
+    <!-- Main Content -->
     <main>
-        <!-- Hero Section -->
-        <section id="hero" class="hero">
-            <div class="hero-bg"></div>
-            <div class="container hero-content">
-                <span class="badge reveal">Nền tảng số thế hệ mới</span>
-                <h1 class="hero-title reveal">Kiến tạo tương lai <br> <span class="text-gradient">kỹ thuật số</span> của bạn</h1>
-                <p class="hero-desc reveal">
-                    Chúng tôi mang đến các giải pháp công nghệ hiện đại, thiết kế độc bản và trải nghiệm người dùng tối ưu giúp doanh nghiệp bạn bứt phá.
-                </p>
-                <div class="hero-actions reveal">
-                    <a href="#contact" class="btn btn-primary btn-glow">Khám phá Giải pháp</a>
-                    <a href="#services" class="btn btn-secondary">Tìm hiểu thêm</a>
-                </div>
+        <!-- Hero Section for Services -->
+        <section class="page-header">
+            <div class="container text-center">
+                <h1 class="text-4xl md:text-5xl font-black mb-1 pb-2 py-1">Dịch Vụ Của Chúng Tôi</h1>
+                <p class="page-subtitle">Khám phá các giải pháp toàn diện giúp doanh nghiệp của bạn phát triển mạnh mẽ trong kỷ nguyên số.</p>
             </div>
-            <!-- Decorative Elements -->
-            <div class="blur-blob top-left"></div>
-            <div class="blur-blob bottom-right"></div>
         </section>
 
-        <!-- Services Section -->
-        <section id="services" class="services section">
+        <!-- Services Grid -->
+        <section class="section pt-0 bg-light-section">
             <div class="container">
-                <div class="section-head reveal">
-                    <h2>Giải pháp cốt lõi</h2>
-                    <p>Mọi thứ bạn cần để phát triển trong kỷ nguyên số, được thiết kế với chuẩn mực cao nhất về thẩm mỹ và hiệu năng.</p>
-                </div>
-                
-                <div class="grid cards">
-                    <article class="card reveal delay-1">
-                        <div class="card-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="url(#paint0_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M22 12H18L15 21L9 3L6 12H2" stroke="url(#paint1_linear)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <defs>
-                                    <linearGradient id="paint0_linear" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#8B5CF6"/>
-                                        <stop offset="1" stop-color="#06B6D4"/>
-                                    </linearGradient>
-                                    <linearGradient id="paint1_linear" x1="2" y1="12" x2="22" y2="12" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#8B5CF6"/>
-                                        <stop offset="1" stop-color="#06B6D4"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
-                        </div>
-                        <h3>Thiết kế UI/UX Trải nghiệm cao</h3>
-                        <p>Tạo ra những giao diện người dùng mượt mà, trực quan, không chỉ đẹp mắt mà còn tập trung vào chuyển đổi mua hàng (CRO).</p>
-                    </article>
+                <div class="grid">
                     
-                    <article class="card reveal delay-2">
-                        <div class="card-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="2" y="3" width="20" height="14" rx="2" stroke="url(#paint_linear2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M8 21H16" stroke="url(#paint_linear2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M12 17V21" stroke="url(#paint_linear2)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <defs>
-                                    <linearGradient id="paint_linear2" x1="2" y1="3" x2="22" y2="21" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#8B5CF6"/>
-                                        <stop offset="1" stop-color="#06B6D4"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
+                    <!-- Service 1 -->
+                    <div class="interactive-card" style="--c-grad1: #60a5fa; --c-grad2: #2563eb; --icon-color: #2563eb;">
+                        <div class="content-normal">
+                            <i data-lucide="layout-template" class="card-icon"></i>
+                            <h3 class="card-title">Thiết kế Website Chuẩn SEO</h3>
                         </div>
-                        <h3>Lập trình Kỹ thuật số</h3>
-                        <p>Xây dựng hệ thống vận hành mạnh mẽ trên cả nền tảng web và thiết bị di động, đảm bảo tính bảo mật và khả năng mở rộng.</p>
-                    </article>
-                    
-                    <article class="card reveal delay-3">
-                        <div class="card-icon">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="url(#paint_linear3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M2 17L12 22L22 17" stroke="url(#paint_linear3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <path d="M2 12L12 17L22 12" stroke="url(#paint_linear3)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                                <defs>
-                                    <linearGradient id="paint_linear3" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
-                                        <stop stop-color="#8B5CF6"/>
-                                        <stop offset="1" stop-color="#06B6D4"/>
-                                    </linearGradient>
-                                </defs>
-                            </svg>
+                        <div class="content-hover">
+                            <h3 class="card-title-hover">Thiết kế Website Chuẩn SEO</h3>
+                            <p class="card-desc">Xây dựng website chuyên nghiệp, giao diện độc quyền, tối ưu trải nghiệm người dùng và thân thiện với công cụ tìm kiếm.</p>
+                            <a href="#" class="btn-detail">Xem chi tiết &rarr;</a>
                         </div>
-                        <h3>Tối ưu SEO Toàn diện</h3>
-                        <p>Đẩy mạnh thứ hạng website trên công cụ tìm kiếm, thống trị thị trường ngách để mang lại nguồn khách hàng bền vững.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
+                    </div>
 
-        <!-- Metrics/Proof Section -->
-        <section class="metrics section">
-            <div class="container wrapper-metrics reveal">
-                <div class="metric-item">
-                    <h4 class="metric-number">99%</h4>
-                    <p>Khách hàng hài lòng</p>
+                    <!-- Service 2 -->
+                    <div class="interactive-card" style="--c-grad1: #34d399; --c-grad2: #059669; --icon-color: #059669;">
+                        <div class="content-normal">
+                            <i data-lucide="search" class="card-icon"></i>
+                            <h3 class="card-title">Quảng cáo Google Ads</h3>
+                        </div>
+                        <div class="content-hover">
+                            <h3 class="card-title-hover">Quảng cáo Google Ads</h3>
+                            <p class="card-desc">Tiếp cận hàng triệu khách hàng tiềm năng đang tìm kiếm sản phẩm, dịch vụ của bạn trên Google với chi phí tối ưu nhất.</p>
+                            <a href="#" class="btn-detail">Xem chi tiết &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="interactive-card" style="--c-grad1: #22d3ee; --c-grad2: #0891b2; --icon-color: #0891b2;">
+                        <div class="content-normal">
+                            <div class="card-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                </svg>
+                            </div>
+                            <h3 class="card-title">Quảng cáo Facebook Ads</h3>
+                        </div>
+                        <div class="content-hover">
+                            <h3 class="card-title-hover">Quảng cáo Facebook Ads</h3>
+                            <p class="card-desc">Xây dựng thương hiệu và thúc đẩy doanh số hiệu quả qua nền tảng mạng xã hội lớn nhất thế giới.</p>
+                            <a href="#" class="btn-detail">Xem chi tiết &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="interactive-card" style="--c-grad1: #c084fc; --c-grad2: #7e22ce; --icon-color: #7e22ce;">
+                        <div class="content-normal">
+                            <i data-lucide="trending-up" class="card-icon"></i>
+                            <h3 class="card-title">Dịch vụ SEO Tổng Thể</h3>
+                        </div>
+                        <div class="content-hover">
+                            <h3 class="card-title-hover">Dịch vụ SEO Tổng Thể</h3>
+                            <p class="card-desc">Đưa website của bạn lên top đầu Google một cách bền vững, thu hút lượng truy cập tự nhiên và chất lượng.</p>
+                            <a href="#" class="btn-detail">Xem chi tiết &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="interactive-card" style="--c-grad1: #fb7185; --c-grad2: #e11d48; --icon-color: #e11d48;">
+                        <div class="content-normal">
+                            <i data-lucide="shield-check" class="card-icon"></i>
+                            <h3 class="card-title">Chăm Sóc & Quản Trị Website</h3>
+                        </div>
+                        <div class="content-hover">
+                            <h3 class="card-title-hover">Chăm Sóc & Quản Trị Website</h3>
+                            <p class="card-desc">Đảm bảo website luôn hoạt động ổn định, an toàn và cập nhật nội dung tươi mới để giữ chân khách hàng.</p>
+                            <a href="#" class="btn-detail">Xem chi tiết &rarr;</a>
+                        </div>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="interactive-card" style="--c-grad1: #fbbf24; --c-grad2: #d97706; --icon-color: #d97706;">
+                        <div class="content-normal">
+                            <i data-lucide="video" class="card-icon"></i>
+                            <h3 class="card-title">Sản xuất Video & Hình ảnh</h3>
+                        </div>
+                        <div class="content-hover">
+                            <h3 class="card-title-hover">Sản xuất Video & Hình ảnh</h3>
+                            <p class="card-desc">Sáng tạo mượt mà và sản xuất chất liệu truyền thông đa phương tiện chất lượng cao, chuyên nghiệp.</p>
+                            <a href="#" class="btn-detail">Xem chi tiết &rarr;</a>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="metric-item">
-                    <h4 class="metric-number">200+</h4>
-                    <p>Dự án hoàn thành</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-number">10x</h4>
-                    <p>Tăng trưởng trung bình</p>
-                </div>
-                <div class="metric-item">
-                    <h4 class="metric-number">24/7</h4>
-                    <p>Hỗ trợ kỹ thuật</p>
-                </div>
-            </div>
-        </section>
-        
-        <!-- CTA Section -->
-        <section id="contact" class="cta-section section">
-            <div class="container wrapper-cta reveal">
-                <div class="cta-content">
-                    <h2>Sẵn sàng bứt phá doanh thu?</h2>
-                    <p>Bắt đầu dự án công nghệ của bạn cùng các kỹ sư và chuyên gia thiết kế tài năng của NovaTech ngay hôm nay.</p>
-                    <a href="mailto:hello@novatech.local" class="btn btn-primary btn-glow btn-large">Thảo luận dự án</a>
-                </div>
-                <!-- Interactive Blob -->
-                <div class="cta-blob"></div>
+
+
             </div>
         </section>
     </main>
 
+    <!-- Floating Actions Container -->
+    <div class="floating-actions">
+        <a href="tel:0389459838" class="action-btn action-phone">
+            <i data-lucide="phone"></i>
+        </a>
+        <a href="#zalo" class="action-btn action-zalo">
+            <i data-lucide="message-circle"></i>
+        </a>
+    </div>
+
     <!-- Footer -->
     <footer class="footer">
-        <div class="container footer-grid">
-            <div class="footer-brand">
-                <a href="#" class="logo">Nova<span>Tech</span></a>
-                <p>Nâng tầm trải nghiệm số của bạn với giao diện tinh giản trang bị công nghệ tương lai. Giải pháp cho doanh nghiệp thông minh.</p>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="/" class="logo"><span>I</span>TCH</a>
+                    <p>Giải pháp thiết kế website và marketing tổng thể cho doanh nghiệp.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>DỊCH VỤ CHÍNH</h4>
+                    <ul>
+                        <li><a href="#">Thiết kế Website</a></li>
+                        <li><a href="#">Quảng cáo đa nền tảng</a></li>
+                        <li><a href="#">Viết bài chuẩn SEO</a></li>
+                        <li><a href="#">Quản trị Website</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>LIÊN HỆ</h4>
+                    <ul>
+                        <li><i data-lucide="phone" class="icon-sm"></i> Hotline: 0389 459 838</li>
+                        <li><i data-lucide="mail" class="icon-sm"></i> Email: lienhe@tch.vn</li>
+                        <li><i data-lucide="map-pin" class="icon-sm"></i> 150/2 Bình Dương</li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>KẾT NỐI CHÚNG TÔI</h4>
+                    <div class="social-links">
+                        <a href="#"><i data-lucide="facebook"></i></a>
+                        <a href="#"><i data-lucide="instagram"></i></a>
+                        <a href="#"><i data-lucide="youtube"></i></a>
+                    </div>
+                </div>
             </div>
-            <div class="footer-links">
-                <h4>Khám phá</h4>
-                <ul>
-                    <li><a href="#">Dịch vụ</a></li>
-                    <li><a href="#">Sản phẩm</a></li>
-                    <li><a href="#">Tuyển dụng</a></li>
-                    <li><a href="#">Blog</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Pháp lý</h4>
-                <ul>
-                    <li><a href="#">Điều khoản sử dụng</a></li>
-                    <li><a href="#">Chính sách bảo mật</a></li>
-                </ul>
-            </div>
-            <div class="footer-links">
-                <h4>Liên hệ</h4>
-                <ul>
-                    <li><a href="#">hello@novatech.demo</a></li>
-                    <li><a href="#">+84 900 123 456</a></li>
-                    <li>Tòa nhà Innovation, TP.HCM</li>
-                </ul>
-            </div>
-        </div>
-        <div class="container footer-bottom">
-            <p>&copy; 2026 NovaTech. Bảo lưu mọi quyền.</p>
-            <div class="social-links">
-                <!-- Placeholder for social icons -->
-                <a href="#">LI</a>
-                <a href="#">TW</a>
-                <a href="#">IG</a>
+            <div class="footer-bottom">
+                <p>&copy; 2026 TCH. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="./script.js" defer></script>
+    <script>
+        // Init Lucide Icons
+        lucide.createIcons();
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('.navbar');
+            if (window.scrollY > 20) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // Theme Toggle
+        const themeBtn = document.querySelector('button[aria-label="Toggle Theme"]');
+        const themeIcon = themeBtn.querySelector('i');
+        
+        themeBtn.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            if (currentTheme === 'light') {
+                document.documentElement.removeAttribute('data-theme');
+                themeIcon.setAttribute('data-lucide', 'moon');
+            } else {
+                document.documentElement.setAttribute('data-theme', 'light');
+                themeIcon.setAttribute('data-lucide', 'sun');
+            }
+            lucide.createIcons(); // re-init icons
+        });
+    </script>
 </body>
 </html>
